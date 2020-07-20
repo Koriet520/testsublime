@@ -17,6 +17,7 @@
 	{"tag" : "p_escolar"
 		"patterns" : ["corrieron", "suspendieron", "escuela", "profesor", "maestro", "compañero", "clase", "no me gusta", "bullying", "maltrato", "acoso", "aburrida", "dificil"]
 		"responses": ["Suena horrible ¿Lo has compartido con alguien más?", "¿Por qué no te gusta?"]
+		"context_set": ""
 	}
 ]
 }
