@@ -1,7 +1,23 @@
 {"intents" : [
-	{"tag" : "greeting",
-		"patterns" : ["Hello"]
-
+	{"tag" : "saludo",
+		"patterns" : ["Hola", "Holi", "Buenos dias", "Buenas tardes", "Buenas noches", "Como estas?"]
+		"responses": ["¡Hola!", "Que tal te va?", "Muy bien y tu?"],
+		"context_set": ""
+	},
+	{ "tag" : "animo",
+		"patterns" : ["triste", "hoy no fue mi dia", "me siento mal", "estoy estresado", "quiero llorar", "enojado", "golpear", "frustrado", "harto", "solo", "cansado"]
+		"responses": ["¿Por qué?", "Lamento escucharlo ¿Te gustaría hablar de ello?", "¿Qué sucede?"]
+		"context_set": ""
+	}
+	{"tag" : "p_laboral"
+		"patterns" : ["despido", "acoso", "sueldo", "jefe", "compañeros", "mucho trabajo", "hora de salida", "no me gusta", "injusto", "trabajo"]
+		"responses": ["Siento escucharlo ¿Por qué sucedió?", "Oh, lo Lamento ¿Por qué decidiste aceptar ese trabajo?", "Suena horrible ¿Lo has compartido con alguien más?", "¿Consideras que es una época difícil para la empresa?", "¿Tienes actividades acumuladas?", "¿Piensas que se te asignó de manera injusta la carga de trabajo?"]
+		"context_set": ""
+	}
+	{"tag" : "p_escolar"
+		"patterns" : ["corrieron", "suspendieron", "escuela", "profesor", "maestro", "compañero", "clase", "no me gusta", "bullying", "maltrato", "acoso", "aburrida", "dificil"]
+		"responses": ["Suena horrible ¿Lo has compartido con alguien más?", "¿Por qué no te gusta?"]
+		"context_set": ""
 	}
 ]
 }
