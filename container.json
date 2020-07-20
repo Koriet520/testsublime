@@ -1,7 +1,0 @@
-{"intents" : [
-	{"tag" : "greeting",
-		"patterns" : ["Hello"]
-
-	}
-]
-}
